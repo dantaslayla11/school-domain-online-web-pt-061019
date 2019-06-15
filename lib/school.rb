@@ -16,6 +16,7 @@ end
 
 def grade(new_grade, student_name)
   @new_grade = new_grade
+  @student_name = student_name
   if new_grade == 10 
     return student_name
  end 
