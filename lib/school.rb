@@ -14,8 +14,8 @@ class School
   end
 end
 
-def grade(new_grade)
-  @new_grade = 10 
+if grade == 10 
+  return grade
 end 
 
 end
