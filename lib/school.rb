@@ -17,7 +17,6 @@ end
 def grade(new_grade)
   @new_grade = new_grade
   
- end 
 end 
 
 
