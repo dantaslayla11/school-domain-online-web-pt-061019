@@ -14,6 +14,8 @@ class School
   end
 end
 
-
+def grade(new_grade)
+  @new_grade = 10 
+end 
 
 end
