@@ -18,6 +18,7 @@ def grade(new_grade)
   @new_grade = new_grade
   if new_grade== 10 
     new_grade
+ end 
 end 
 
 end
