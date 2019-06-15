@@ -16,8 +16,8 @@ end
 
 def grade(new_grade)
   @new_grade = new_grade
-  if new_grade== ["Avi Flombaum", "Jeff Baird"]
-    new_grade
+  if new_grade== 10 
+    return student_name
  end 
 end 
 
