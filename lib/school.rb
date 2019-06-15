@@ -15,7 +15,7 @@ class School
 end
 
 if grade == 10 
-  return grade
+  grade
 end 
 
 end
