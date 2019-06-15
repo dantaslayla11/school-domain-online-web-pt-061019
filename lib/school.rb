@@ -14,10 +14,12 @@ class School
   end
 end
 
-def grade(new_grade)
-  @new_grade = new_grade
-  
-end 
-
+def grade(level)
+    roster.detect do |x, y| 
+      if x == level
+        return y 
+      end 
+    end 
+  end 
 
 end
